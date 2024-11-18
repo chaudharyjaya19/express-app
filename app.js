@@ -5,7 +5,7 @@ const port = 3000;
 // Sample JSON data
 const data = require('./data.json');
 
-// GET endpoint to render JSON data
+//GET endpoint to render JSON data
 app.get('/data', (req, res) => {
   res.json(data);
 });
